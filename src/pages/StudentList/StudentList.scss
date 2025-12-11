@@ -1,0 +1,117 @@
+.studentList__container {
+    font-size: 1.6rem;
+
+    .btn--custom {
+        border: 1px solid var(--primary-color);
+        font-size: 1.6rem !important;
+        color: var(--black-color);
+        margin-bottom: 16px;
+
+        &:hover {
+            background-color: var(--primary-color);
+            color: var(--white-color);
+        }
+    }
+}
+
+.studentList__title {
+    text-align: center;
+    margin-bottom: 16px;
+    font-size: 2.2rem;
+    color: #000000;
+}
+
+// Dark mode
+body.dark-mode .studentList__title,
+body.dark-mode .studentList__container .btn--custom {
+    color: var(--white-color);
+}
+
+.table tbody tr {
+    height: 50px;
+    vertical-align: middle;
+}
+.table tbody td {
+    font-size: 1.6rem;
+}
+/* dark background overlay */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+/* white centered modal */
+.editModal {
+    background: var(--white-color);
+    width: 450px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+    animation: pop 0.25s ease-out;
+}
+
+/* Dark mode table */
+body.dark-mode .table {
+    background-color: var(--dark-mode); // table background
+    color: #ffffff; // default text color for table
+
+    th,
+    td {
+        background-color: var(--dark-mode); // dark background for cells
+        border-color: #444; // dark borders
+        color: #ffffff; // text color
+    }
+
+    tbody tr:hover {
+        background-color: #333; // dark hover effect
+    }
+}
+
+.studentList__action {
+    .btn--edit,
+    .btn--delete {
+        font-size: 1.2rem !important;
+    }
+}
+@keyframes pop {
+    from {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.editForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.editForm label {
+    font-weight: 600;
+    margin-top: 12px;
+    font-size: 1.6rem !important;
+}
+
+.editForm input {
+    padding: 8px 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1.6rem !important;
+}
+
+.modalButtons {
+    margin-top: 20px;
+    text-align: right;
+}

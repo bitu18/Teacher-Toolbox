@@ -1,0 +1,184 @@
+{
+    "students": {
+        "S001": {
+            "id": "S001",
+            "firstname": "Alice",
+            "lastname": "Nguyen",
+            "age": 20,
+            "major": "Computer Science",
+            "gender": "Female",
+            "email": "alice.nguyen@my.unt.edu"
+        },
+        "S002": {
+            "id": "S002",
+            "firstname": "Michael",
+            "lastname": "Tran",
+            "age": 22,
+            "major": "Mechanical Engineering",
+            "gender": "Male",
+            "email": "michael.tran@my.unt.edu"
+        },
+        "S003": {
+            "id": "S003",
+            "firstname": "Emma",
+            "lastname": "Johnson",
+            "age": 20,
+            "major": "Psychology",
+            "gender": "Female",
+            "email": "emma.johnson@my.unt.edu"
+        },
+        "S004": {
+            "id": "S004",
+            "firstname": "David",
+            "lastname": "Pham",
+            "age": 21,
+            "major": "Information Technology",
+            "gender": "Male",
+            "email": "david.pham@my.unt.edu"
+        },
+        "S005": {
+            "id": "S005",
+            "firstname": "James",
+            "lastname": "Wilson",
+            "age": 20,
+            "major": "Political Science",
+            "gender": "Male",
+            "email": "james.wilson@my.unt.edu"
+        },
+        "S006": {
+            "id": "S006",
+            "firstname": "Sophia",
+            "lastname": "Le",
+            "age": 19,
+            "major": "Biology",
+            "gender": "Female",
+            "email": "sophia.le@my.unt.edu"
+        },
+        "S007": {
+            "id": "S007",
+            "firstname": "Liam",
+            "lastname": "Williams",
+            "age": 21,
+            "major": "Finance",
+            "gender": "Male",
+            "email": "liam.williams@my.unt.edu"
+        },
+        "S008": {
+            "id": "S008",
+            "firstname": "Olivia",
+            "lastname": "Brown",
+            "age": 19,
+            "major": "Nursing",
+            "gender": "Female",
+            "email": "olivia.brown@my.unt.edu"
+        },
+        "S009": {
+            "id": "S009",
+            "firstname": "Noah",
+            "lastname": "Davis",
+            "age": 22,
+            "major": "Marketing",
+            "gender": "Male",
+            "email": "noah.davis@my.unt.edu"
+        },
+        "S010": {
+            "id": "S010",
+            "firstname": "Ava",
+            "lastname": "Miller",
+            "age": 23,
+            "major": "Accounting",
+            "gender": "Female",
+            "email": "ava.miller@my.unt.edu"
+        },
+        "S011": {
+            "id": "S011",
+            "firstname": "Linh",
+            "lastname": "Vo",
+            "age": 23,
+            "major": "Business Administration",
+            "gender": "Female",
+            "email": "linh.vo@my.unt.edu"
+        },
+        "S012": {
+            "id": "S012",
+            "firstname": "Charlotte",
+            "lastname": "Moore",
+            "age": 21,
+            "major": "Biochemistry",
+            "gender": "Female",
+            "email": "charlotte.moore@my.unt.edu"
+        },
+        "S013": {
+            "id": "S013",
+            "firstname": "Benjamin",
+            "lastname": "Taylor",
+            "age": 22,
+            "major": "Electrical Engineering",
+            "gender": "Male",
+            "email": "benjamin.taylor@my.unt.edu"
+        },
+        "S014": {
+            "id": "S014",
+            "firstname": "Amelia",
+            "lastname": "Anderson",
+            "age": 19,
+            "major": "Communications",
+            "gender": "Female",
+            "email": "amelia.anderson@my.unt.edu"
+        },
+        "S015": {
+            "id": "S015",
+            "firstname": "William",
+            "lastname": "Thomas",
+            "age": 20,
+            "major": "Kinesiology",
+            "gender": "Male",
+            "email": "william.thomas@my.unt.edu"
+        },
+        "S016": {
+            "id": "S016",
+            "firstname": "Harper",
+            "lastname": "Jackson",
+            "age": 21,
+            "major": "Sociology",
+            "gender": "Female",
+            "email": "harper.jackson@my.unt.edu"
+        },
+        "S017": {
+            "id": "S017",
+            "firstname": "Ethan",
+            "lastname": "White",
+            "age": 22,
+            "major": "Computer Engineering",
+            "gender": "Male",
+            "email": "ethan.white@my.unt.edu"
+        },
+        "S018": {
+            "id": "S018",
+            "firstname": "Evelyn",
+            "lastname": "Harris",
+            "age": 20,
+            "major": "Graphic Design",
+            "gender": "Female",
+            "email": "evelyn.harris@my.unt.edu"
+        },
+        "S019": {
+            "id": "S019",
+            "firstname": "Alexander",
+            "lastname": "Martin",
+            "age": 23,
+            "major": "Economics",
+            "gender": "Male",
+            "email": "alexander.martin@my.unt.edu"
+        },
+        "S020": {
+            "id": "S020",
+            "firstname": "Scarlett",
+            "lastname": "Young",
+            "age": 19,
+            "major": "Education",
+            "gender": "Female",
+            "email": "scarlett.young@my.unt.edu"
+        }
+    }
+}

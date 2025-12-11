@@ -1,0 +1,158 @@
+.home-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 50px 20px 50px;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.home-text,
+.home-subtitle,
+.home-section-title {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+//header
+.home-header {
+    margin-bottom: 100px;
+}
+
+//header title
+.home-title {
+    font-size: 12.9rem;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+//subtitle under teacher toolbox
+.home-subtitle {
+    font-size: 2.1rem;
+    max-width: 7000px;
+    color: #444;
+    margin: 0 auto 25px auto;
+    line-height: 0.15;
+}
+
+//section wrapper
+.home-section {
+    margin-top: 30px;
+}
+
+//section titles
+.home-section-title {
+    font-size: 3rem;
+    font-weight: 550;
+    margin-bottom: 40px;
+}
+
+//regular text
+.home-text {
+    font-size: 2rem;
+    max-width: 690px;
+    color: #444;
+}
+
+.home-section:nth-of-type(2) {
+    margin-top: 200px;
+}
+
+.home-section:nth-of-type(3) {
+    margin-top: 120px;
+}
+
+//grid of cards
+.home-grid {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    //flex-wrap: warp;
+    justify-content: center;
+    //grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+}
+
+//feature cards
+.home-card {
+    background: #ffffff;
+    padding: 30px 30px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+    cursor: pointer;
+}
+
+//card hover
+.home-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+}
+
+//card title
+.home-card h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+//card text
+.home-card-text,
+.home-card p {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #444;
+}
+
+//footer tip
+
+.home-footer {
+    font-size: 1.5rem;
+    color: #555;
+    margin-top: 30px;
+}
+
+.home-footer-link {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0 4px;
+    font-size: 1.6rem;
+    color: #28a745;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.home-footer-link:hover {
+    color: #218838;
+}
+
+//dark mode
+.dark-mode .home-tile,
+.dark-mode .home-section-title {
+    color: #ffffff !important;
+}
+
+.dark-mode .home-subtitle,
+.dark-mode .home-text,
+.dark-mode .home-footer {
+    color: #ffffff !important;
+}
+
+.dark-mode.home-card {
+    background-color: #1b1b1b;
+    color: #ffffff;
+}
+
+.dark-mode.home-card {
+    color: #ffffff !important;
+}
+
+.dark-mode.home-card-text {
+    color: #ffffff !important;
+}
+
+.dark-mode.home-footer {
+    color: #ffffff !important;
+}

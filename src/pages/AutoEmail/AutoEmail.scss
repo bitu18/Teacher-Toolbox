@@ -1,0 +1,126 @@
+.autoemail-container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 1.6rem;
+}
+
+//title
+.autoemail-title {
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+//labels
+.autoemail-container label {
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+
+//inputs and dropdown
+.autoemail-container input,
+.autoemail-container textarea,
+.autoemail-container select {
+    font-size: 1.6rem;
+    padding: 12px 14px; //input field
+    height: 48px; // dropdown / inputs
+    margin-bottom: 20px; //spacing between fields
+}
+
+//text area height
+.autoemail-container textarea {
+    height: 150px;
+}
+
+//buttons
+.autoemail-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+.autoemail-buttons .btn {
+    font-size: 1.6rem;
+    padding: 12px 28px;
+    height: 45px;
+    min-width: 120px;
+}
+.btn-send:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+}
+.btn-clear:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+}
+
+
+
+//colors for send
+.btn-send {
+    background-color: #28a745 !important;
+    color: #fff !important;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 6px;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+.btn-send:hover {
+    background-color: #218838 !important;
+}
+
+//colors for clear
+.btn-clear {
+    background-color: #aa2828 !important;
+    color: #fff !important;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 6px;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+.btn-clear:hover {
+    background-color: #742020 !important;
+}
+
+//preview and status area under buttons
+
+.autoemail-preview-box {
+    margin-top: 20px;
+    font-size: 1.6rem;
+}
+
+.autoemail-preview-title {
+    color: #28a745;
+    margin-bottom: 8px;
+}
+
+.autoemail-preview-info {
+    padding: 12px 14px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    font-size: 1.6rem;
+    color: #333;
+}
+
+.autoemail-preview-body {
+    margin-top: 5px;
+    white-space: pre-wrap;
+}
+
+//to & cc side by side
+.autoemail-row {
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.autoemail-row .form-group {
+    flex: 1;
+}

@@ -1,0 +1,95 @@
+.attendance-container {
+    max-width: 1500px;
+    margin: 0 auto;
+    font-size: 1.6rem;
+}
+
+//title
+.attendance-title {
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.attendance-top-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20x;
+    margin-bottom: 20px;
+}
+
+//date selector
+.attendance-date-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.attendance-date-label {
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-size: 2.2rem;
+}
+
+.attendance-date-input {
+    padding: 15px 20px;
+    height: 30px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    background: solid #ccc;
+    color: solid #ccc;
+}
+
+//table container
+.attendance-table-wrapper {
+    margin-top: 10px;
+}
+
+.attendance-table tbody tr {
+    height: 50px;
+    vertical-align: middle;
+}
+
+//status buttons
+.status-btn {
+    font-size: 1.6rem;
+    padding: 6px 40px 10px;
+    border-radius: 6px;
+    background: transparent;
+    border: 1px solid var(--primary-color);
+    color: inherit;
+    cursor: pointer;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.attendance-status-cell {
+    display: felx;
+    align-items: center;
+    gap: 20px;
+}
+
+.status-btn.present.active {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.status-btn.absent.active {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.status-btn.tardy.active {
+    background-color: #ffc107;
+    color: #000;
+}
+.status-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+}
+
+//selected text
+.attednance-selected-text {
+    font-size: 1.4rem;
+    opacity: 0.8;
+}
